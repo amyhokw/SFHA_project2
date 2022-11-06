@@ -21,7 +21,7 @@
         <div class="dropdownMenu">
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="book.php">Book Trip </a></li>
+                <li><a href="book.php">Book Trip</a></li>
                 <li><a href="#">Admin Login</a></li>
             </ul>
         </div>
@@ -30,7 +30,7 @@
     <main>
         <h2>Thank You</h2>
         <hr>
-        <p>Thank you:<?php echo $_GET["email"];?></p>
+        <p>Thank you: <?php echo $_GET["email"];?></p>
         <p>We will contact you about the:
         <br><?php echo $_GET["location"];?> trip on <?php echo $_GET["tripDate"];?>
     </main>
